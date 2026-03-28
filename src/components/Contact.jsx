@@ -1,6 +1,14 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Phone, Mail, MapPin, Send, CheckCircle, Clock, Wrench } from 'lucide-react'
+import emailjs from '@emailjs/browser'
+
+// ── EmailJS config ──────────────────────────────────────────────
+// Fill these in after completing the EmailJS setup steps below.
+const EMAILJS_SERVICE_ID  = 'YOUR_SERVICE_ID'
+const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'
+const EMAILJS_PUBLIC_KEY  = 'YOUR_PUBLIC_KEY'
+// ───────────────────────────────────────────────────────────────
 
 const services = [
   'Shipping Container Home',
@@ -20,13 +28,29 @@ export default function Contact() {
     setForm((f) => ({ ...f, [e.target.name]: e.target.value }))
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
     setLoading(true)
-    setTimeout(() => {
-      setLoading(false)
+    try {
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        {
+          from_name: form.name,
+          from_email: form.email,
+          phone: form.phone || 'Not provided',
+          service: form.service || 'Not specified',
+          message: form.message,
+        },
+        EMAILJS_PUBLIC_KEY
+      )
       setSubmitted(true)
-    }, 1200)
+    } catch (err) {
+      console.error('EmailJS error:', err)
+      alert('Failed to send message. Please try again or call us directly.')
+    } finally {
+      setLoading(false)
+    }
   }
 
   const inputClass =
