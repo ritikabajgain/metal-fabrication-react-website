@@ -49,7 +49,7 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
             <a href="tel:+15551234567" className="bg-white text-orange-600 font-bold px-6 py-3 rounded flex items-center gap-2 hover:bg-orange-50 transition-colors">
               <Phone size={16} />
-              (555) 123-4567
+              (318) 485-9150
             </a>
             <a href="#contact" className="border-2 border-white text-white font-bold px-6 py-3 rounded flex items-center gap-2 hover:bg-white/10 transition-colors">
               Get a Quote
