@@ -4,7 +4,7 @@ import { ArrowRight, Tag } from 'lucide-react'
 const projects = [
   {
     image: '/images/1.jpg',
-    title: 'The Industrial Homestead — Shipping Container Conversion',
+    title: 'The Industrial Homestead - Shipping Container Conversion',
     description:
       'A fully repurposed shipping container transformed into a functional, modern living space. This build features custom spray foam insulation, steel-framed window openings, weatherproofed exterior cladding, a raised deck with welded steel railing, and full electrical rough-in. Industrial aesthetics meet everyday livability in every detail.',
     tags: ['Container Home', 'Custom Build', 'Residential'],
@@ -16,7 +16,7 @@ const projects = [
   },
   {
     image: '/images/2.jpg',
-    title: 'Dual-Barrel Craftsmanship — Heavy-Duty Custom Smoker Trailer',
+    title: 'Dual-Barrel Craftsmanship - Heavy-Duty Custom Smoker Trailer',
     description:
       'A competition-ready dual-barrel offset smoker built on a road-legal tandem-axle trailer. Both cooking chambers are fabricated from 3/16" plate steel with tight-welded seams for maximum heat retention. Features include reverse-flow baffles, fold-out prep shelves, stainless hardware, and a high-temp powder coat finish built to handle years of heavy use.',
     tags: ['BBQ Smoker', 'Trailer-Mounted', 'Competition'],
@@ -28,7 +28,7 @@ const projects = [
   },
   {
     image: '/images/9.jpg',
-    title: 'Curves in Iron — Spiral Banister & Ornamental Ironwork',
+    title: 'Curves in Iron - Spiral Banister & Ornamental Ironwork',
     description:
       'A showcase of ornamental welding at its finest. This spiral banister was hand-formed using solid wrought iron stock, with each curve shaped and fitted individually for a seamless flow. The interplay of light and shadow across the finished piece reflects the level of precision and artistry Michael brings to every decorative ironwork commission.',
     tags: ['Wrought Iron', 'Decorative', 'Custom Design'],

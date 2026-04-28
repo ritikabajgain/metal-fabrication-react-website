@@ -75,13 +75,13 @@ export default function Contact() {
               </div>
               <div>
                 <div className="text-gray-500 dark:text-neutral-400 text-xs font-semibold uppercase tracking-wider mb-1">Call Us</div>
-                <div className="text-gray-900 dark:text-white font-semibold text-lg">(555) 123-4567</div>
-                <div className="text-gray-400 dark:text-neutral-500 text-xs mt-0.5">Mon–Sat, 7am–6pm</div>
+                <div className="text-gray-900 dark:text-white font-semibold text-lg">(318) 485-9150</div>
+                <div className="text-gray-400 dark:text-neutral-500 text-xs mt-0.5">Mon–Sat, 8am–5pm</div>
               </div>
             </a>
 
             <a
-              href="mailto:info@millermetals.com"
+              href="mailto:sillermichael72@gmail.com"
               className="card-surface p-5 flex items-start gap-4 group hover:shadow-lg hover:shadow-orange-500/10"
             >
               <div className="w-11 h-11 bg-orange-500/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-orange-500/20 transition-colors">
@@ -89,7 +89,7 @@ export default function Contact() {
               </div>
               <div>
                 <div className="text-gray-500 dark:text-neutral-400 text-xs font-semibold uppercase tracking-wider mb-1">Email Us</div>
-                <div className="text-gray-900 dark:text-white font-semibold">info@millermetals.com</div>
+                <div className="text-gray-900 dark:text-white font-semibold">sillermichael72@gmail.com</div>
                 <div className="text-gray-400 dark:text-neutral-500 text-xs mt-0.5">We reply within 24 hours</div>
               </div>
             </a>
@@ -100,8 +100,8 @@ export default function Contact() {
               </div>
               <div>
                 <div className="text-gray-500 dark:text-neutral-400 text-xs font-semibold uppercase tracking-wider mb-1">Location</div>
-                <div className="text-gray-900 dark:text-white font-semibold">Monroe, Louisiana</div>
-                <div className="text-gray-400 dark:text-neutral-500 text-xs mt-0.5">Serving North Louisiana &amp; Surrounding Areas</div>
+                <div className="text-gray-900 dark:text-white font-semibold">576 Angus Rd, Monroe, LA 71202</div>
+                <div className="text-gray-400 dark:text-neutral-500 text-xs mt-0.5">Serving Most Louisiana &amp; Surrounding Areas</div>
               </div>
             </div>
 
@@ -121,7 +121,7 @@ export default function Contact() {
             <div className="rounded-xl overflow-hidden border border-gray-200 dark:border-steel-800 h-48 transition-colors">
               <iframe
                 title="Sillers Welding & Renovation Location — Monroe, Louisiana"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109258.63!2d-92.2606!3d32.5526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862a60e048af7365%3A0x875e2a3f4b2bf2b0!2sMonroe%2C%20LA%2C%20USA!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26955.099230442036!2d-92.09315534320127!3d32.38197536782374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862e4b81b1b8a6e9%3A0x944f574b8a55ceb1!2s576%20Angus%20Rd%2C%20Monroe%2C%20LA%2071202!5e0!3m2!1sen!2sus!4v1777405354579!5m2!1sen!2sus"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -227,7 +227,7 @@ export default function Contact() {
                       <textarea
                         id="message" name="message" required rows={5}
                         value={form.message} onChange={handleChange}
-                        placeholder="Tell Michael about your project — dimensions, timeline, special requirements, etc."
+                        placeholder="Tell Michael about your project - dimensions, timeline, special requirements, etc."
                         className={inputClass + ' resize-none'}
                       />
                     </div>

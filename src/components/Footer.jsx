@@ -78,17 +78,18 @@ export default function Footer() {
             </a>
             <p className="text-gray-500 dark:text-neutral-500 text-sm leading-relaxed mb-5 transition-colors">
               Custom metal fabrication, container homes, utility trailers, and ornamental
-              ironwork — built with precision, delivered with pride.
+              ironwork - built with precision, delivered with pride.
             </p>
             <div className="flex gap-3">
               {[
-                { Icon: FacebookIcon, href: '#', label: 'Facebook' },
-                { Icon: InstagramIcon, href: '#', label: 'Instagram' },
-                { Icon: YoutubeIcon, href: '#', label: 'YouTube' },
+                { Icon: FacebookIcon, href: 'https://www.facebook.com/michael.siller.14/',  label: 'Facebook' },
+                { Icon: InstagramIcon, href: 'https://www.instagram.com/mrsillerdeal/', label: 'Instagram' },
               ].map(({ Icon, href, label }) => (
                 <a
                   key={label}
                   href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={label}
                   className="w-9 h-9 bg-white dark:bg-steel-800 border border-gray-200 dark:border-steel-700 rounded-lg flex items-center justify-center text-gray-500 dark:text-neutral-400 hover:text-orange-500 hover:border-orange-500 transition-all shadow-sm dark:shadow-none"
                 >
@@ -146,7 +147,7 @@ export default function Footer() {
                 <a href="tel:+15551234567" className="flex items-start gap-3 group">
                   <Phone size={15} className="text-orange-500 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-500 dark:text-neutral-500 group-hover:text-gray-900 dark:group-hover:text-white text-sm transition-colors">
-                    (555) 123-4567
+                    (318) 485-9150
                   </span>
                 </a>
               </li>
@@ -154,7 +155,7 @@ export default function Footer() {
                 <a href="mailto:info@millermetals.com" className="flex items-start gap-3 group">
                   <Mail size={15} className="text-orange-500 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-500 dark:text-neutral-500 group-hover:text-gray-900 dark:group-hover:text-white text-sm transition-colors">
-                    info@millermetals.com
+                    sillermichael72@gmail.com
                   </span>
                 </a>
               </li>
@@ -162,7 +163,7 @@ export default function Footer() {
                 <div className="flex items-start gap-3">
                   <MapPin size={15} className="text-orange-500 mt-0.5 flex-shrink-0" />
                   <span className="text-gray-500 dark:text-neutral-500 text-sm transition-colors">
-                    Monroe, Louisiana<br />Serving North Louisiana &amp; Surrounding Areas
+                    Monroe, Louisiana<br />Serving Most Louisiana &amp; Surrounding Areas
                   </span>
                 </div>
               </li>
@@ -170,8 +171,7 @@ export default function Footer() {
 
             <div className="mt-5 pt-5 border-t border-gray-200 dark:border-steel-800 transition-colors">
               <div className="text-gray-500 dark:text-neutral-400 text-xs font-semibold uppercase tracking-wider mb-2">Hours</div>
-              <div className="text-gray-500 dark:text-neutral-500 text-sm">Mon – Fri: 7am – 6pm</div>
-              <div className="text-gray-500 dark:text-neutral-500 text-sm">Saturday: 8am – 4pm</div>
+              <div className="text-gray-500 dark:text-neutral-500 text-sm">Mon – Sat: 8am – 5pm</div>
               <div className="text-gray-400 dark:text-neutral-600 text-sm">Sunday: Closed</div>
             </div>
           </div>

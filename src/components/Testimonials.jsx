@@ -8,7 +8,7 @@ const testimonials = [
     location: 'Shreveport, LA',
     project: 'Container Home',
     rating: 5,
-    text: "Michael built our dream container home and it exceeded every expectation. He walked us through every decision, worked within our budget, and the finished product is absolutely stunning. The quality of the welds, the insulation, everything — it's top tier. We get compliments on it constantly. If you're thinking about a container home, there's no one else to call.",
+    text: "Michael built our dream container home and it exceeded every expectation. He walked us through every decision, worked within our budget, and the finished product is absolutely stunning. The quality of the welds, the insulation, everything - it's top tier. We get compliments on it constantly. If you're thinking about a container home, there's no one else to call.",
     initials: 'JT',
   },
   {
@@ -32,7 +32,7 @@ const testimonials = [
     location: 'Baton Rouge, LA',
     project: 'Custom BBQ Smoker',
     rating: 5,
-    text: "I compete in BBQ tournaments across the South and my Sillers Welding & Renovation smoker has become my secret weapon. Michael built me a reverse-flow offset on a trailer that holds temp like a dream and has won me multiple trophies. The construction quality is insane — quarter-inch plate, tight welds, custom exhaust stacks. It's a work of art that happens to cook the best brisket you've ever tasted.",
+    text: "I compete in BBQ tournaments across the South and my Sillers Welding & Renovation smoker has become my secret weapon. Michael built me a reverse-flow offset on a trailer that holds temp like a dream and has won me multiple trophies. The construction quality is insane - quarter-inch plate, tight welds, custom exhaust stacks. It's a work of art that happens to cook the best brisket you've ever tasted.",
     initials: 'TB',
   },
 ]

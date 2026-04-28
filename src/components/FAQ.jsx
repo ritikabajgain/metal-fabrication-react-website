@@ -5,7 +5,7 @@ import { Plus, Minus } from 'lucide-react'
 const faqs = [
   {
     q: 'What areas do you serve?',
-    a: "Sillers Welding & Renovation is based in Monroe, Louisiana, and primarily serves North Louisiana including Shreveport, Ruston, Alexandria, Natchitoches, and surrounding areas. For larger projects like container home builds, Michael is willing to travel — contact us to discuss your location and project scope.",
+    a: "Sillers Welding & Renovation is based in Monroe, Louisiana, and primarily serves North Louisiana including Shreveport, Ruston, Alexandria, Natchitoches, and surrounding areas. For larger projects like container home builds, Michael is willing to travel - contact us to discuss your location and project scope.",
   },
   {
     q: 'How long does a shipping container home take to build?',
@@ -21,11 +21,11 @@ const faqs = [
   },
   {
     q: 'How does the quoting process work?',
-    a: "Start by filling out the contact form below or calling directly. Michael will schedule a free consultation — either in person or via video call — to discuss your project in detail. After that, he'll provide a written quote typically within 3–5 business days. The quote covers materials, labor, and estimated timeline. No surprise fees.",
+    a: "Start by filling out the contact form below or calling directly. Michael will schedule a free consultation - either in person or via video call - to discuss your project in detail. After that, he'll provide a written quote typically within 3-5 business days. The quote covers materials, labor, and estimated timeline. No surprise fees.",
   },
   {
     q: 'Can you do custom or one-of-a-kind designs?',
-    a: "Absolutely — that's what Sillers Welding & Renovation specializes in. Whether it's a container home with a rooftop deck, a competition smoker with unique features, or a wrought iron gate with custom scrollwork, Michael thrives on custom challenges. Bring your sketches, ideas, or inspiration photos and he'll make it happen.",
+    a: "Absolutely - that's what Sillers Welding & Renovation specializes in. Whether it's a container home with a rooftop deck, a competition smoker with unique features, or a wrought iron gate with custom scrollwork, Michael thrives on custom challenges. Bring your sketches, ideas, or inspiration photos and he'll make it happen.",
   },
 ]
 
