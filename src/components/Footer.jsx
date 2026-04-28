@@ -69,10 +69,10 @@ export default function Footer() {
               </div>
               <div>
                 <div className="font-display font-bold text-lg tracking-widest text-gray-900 dark:text-white leading-none transition-colors">
-                  SILLER
+                  SILLERS
                 </div>
                 <div className="font-display font-bold text-lg tracking-widest text-orange-500 leading-none">
-                  METALS
+                  WELDING & RENOVATION
                 </div>
               </div>
             </a>
@@ -181,7 +181,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-gray-200 dark:border-steel-800 py-6 transition-colors">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-gray-400 dark:text-neutral-600 text-sm">
-          <p>© {new Date().getFullYear()} Siller Metals. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Sillers Welding & Renovation. All rights reserved.</p>
           <p>
             Owned &amp; operated by{' '}
             <span className="text-gray-600 dark:text-neutral-400 font-medium">Michael Siller</span>

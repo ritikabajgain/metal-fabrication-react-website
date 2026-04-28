@@ -1,6 +1,6 @@
-# Miller Metals — Custom Metal Fabrication Website
+# Sillers Welding & Renovation — Custom Metal Fabrication Website
 
-A modern, responsive business website for **Siller Metals**, a professional metal fabrication company specializing in custom metalwork, shipping container homes, and structural builds. Built with React, Vite, Tailwind CSS, and Framer Motion.
+A modern, responsive business website for **Sillers Welding & Renovation**, a professional metal fabrication company specializing in custom metalwork, shipping container homes, and structural builds. Built with React, Vite, Tailwind CSS, and Framer Motion.
 
 ---
 

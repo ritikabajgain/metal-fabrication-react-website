@@ -32,7 +32,7 @@ const testimonials = [
     location: 'Baton Rouge, LA',
     project: 'Custom BBQ Smoker',
     rating: 5,
-    text: "I compete in BBQ tournaments across the South and my Siller Metals smoker has become my secret weapon. Michael built me a reverse-flow offset on a trailer that holds temp like a dream and has won me multiple trophies. The construction quality is insane — quarter-inch plate, tight welds, custom exhaust stacks. It's a work of art that happens to cook the best brisket you've ever tasted.",
+    text: "I compete in BBQ tournaments across the South and my Sillers Welding & Renovation smoker has become my secret weapon. Michael built me a reverse-flow offset on a trailer that holds temp like a dream and has won me multiple trophies. The construction quality is insane — quarter-inch plate, tight welds, custom exhaust stacks. It's a work of art that happens to cook the best brisket you've ever tasted.",
     initials: 'TB',
   },
 ]

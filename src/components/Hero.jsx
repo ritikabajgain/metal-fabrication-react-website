@@ -50,7 +50,12 @@ export default function Hero() {
             transition={{ delay: 0.35, duration: 0.7 }}
             className="font-display font-bold text-5xl sm:text-6xl lg:text-7xl xl:text-8xl leading-none tracking-wide mb-6"
           >
-            CUSTOM METAL
+            <span
+              className="drop-shadow-[0_3px_14px_rgba(0,0,0,0.9)]"
+              style={{ color: '#ffffff' }}
+            >
+              CUSTOM METAL
+            </span>
             <br />
             <span className="text-orange-500">FABRICATION</span>
             <br />

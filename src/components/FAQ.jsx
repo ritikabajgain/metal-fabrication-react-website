@@ -5,7 +5,7 @@ import { Plus, Minus } from 'lucide-react'
 const faqs = [
   {
     q: 'What areas do you serve?',
-    a: "Siller Metals is based in Monroe, Louisiana, and primarily serves North Louisiana including Shreveport, Ruston, Alexandria, Natchitoches, and surrounding areas. For larger projects like container home builds, Michael is willing to travel — contact us to discuss your location and project scope.",
+    a: "Sillers Welding & Renovation is based in Monroe, Louisiana, and primarily serves North Louisiana including Shreveport, Ruston, Alexandria, Natchitoches, and surrounding areas. For larger projects like container home builds, Michael is willing to travel — contact us to discuss your location and project scope.",
   },
   {
     q: 'How long does a shipping container home take to build?',
@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: 'Can you do custom or one-of-a-kind designs?',
-    a: "Absolutely — that's what Siller Metals specializes in. Whether it's a container home with a rooftop deck, a competition smoker with unique features, or a wrought iron gate with custom scrollwork, Michael thrives on custom challenges. Bring your sketches, ideas, or inspiration photos and he'll make it happen.",
+    a: "Absolutely — that's what Sillers Welding & Renovation specializes in. Whether it's a container home with a rooftop deck, a competition smoker with unique features, or a wrought iron gate with custom scrollwork, Michael thrives on custom challenges. Bring your sketches, ideas, or inspiration photos and he'll make it happen.",
   },
 ]
 

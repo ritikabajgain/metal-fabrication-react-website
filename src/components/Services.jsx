@@ -66,7 +66,7 @@ export default function Services() {
             Our <span className="text-orange-500">Services</span>
           </h2>
           <p className="section-subheading mx-auto">
-            From structural builds to intricate custom work - Siller Metals delivers
+            From structural builds to intricate custom work - Sillers Welding & Renovation delivers
             craftsmanship that stands the test of time.
           </p>
         </motion.div>

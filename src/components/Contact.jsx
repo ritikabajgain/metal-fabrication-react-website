@@ -120,7 +120,7 @@ export default function Contact() {
 
             <div className="rounded-xl overflow-hidden border border-gray-200 dark:border-steel-800 h-48 transition-colors">
               <iframe
-                title="Siller Metals Location — Monroe, Louisiana"
+                title="Sillers Welding & Renovation Location — Monroe, Louisiana"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109258.63!2d-92.2606!3d32.5526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862a60e048af7365%3A0x875e2a3f4b2bf2b0!2sMonroe%2C%20LA%2C%20USA!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus"
                 width="100%"
                 height="100%"
