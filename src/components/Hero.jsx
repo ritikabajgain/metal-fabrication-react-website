@@ -92,7 +92,7 @@ export default function Hero() {
               <ArrowRight size={18} />
             </a>
             <a href="#contact" className="btn-outline text-center justify-center sm:justify-start">
-              Get a Free Quote
+              Request an Estimate
             </a>
           </motion.div>
 

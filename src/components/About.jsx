@@ -85,7 +85,7 @@ export default function About() {
               </motion.p>
 
               <motion.div variants={fadeUp} className="flex flex-wrap gap-3 mb-10">
-                {['Licensed & Insured', 'Custom Designs', 'On-Time Delivery', 'Free Consultations'].map((tag) => (
+                {['Licensed & Insured', 'Custom Designs', 'On-Time Delivery', 'Welcome Walk-Ins'].map((tag) => (
                   <span
                     key={tag}
                     className="bg-gray-100 dark:bg-steel-800 border border-gray-200 dark:border-steel-700 text-gray-700 dark:text-neutral-300 text-sm font-medium px-4 py-2 rounded-full transition-colors"

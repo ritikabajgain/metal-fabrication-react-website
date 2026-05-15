@@ -44,7 +44,7 @@ export default function Footer() {
             <h3 className="font-display text-2xl md:text-3xl font-bold text-white tracking-wide">
               Ready to Build Something That Lasts?
             </h3>
-            <p className="text-orange-100 mt-1">Contact Michael today for a free consultation and quote.</p>
+            <p className="text-orange-100 mt-1">Call Michael for a quote, or stop by the shop to see the display and discuss your project.</p>
           </div>
           <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
             <a href="tel:+15551234567" className="bg-white text-orange-600 font-bold px-6 py-3 rounded flex items-center gap-2 hover:bg-orange-50 transition-colors">

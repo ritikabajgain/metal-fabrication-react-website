@@ -53,8 +53,8 @@ export default function Contact() {
             Start Your <span className="text-orange-500">Project</span>
           </h2>
           <p className="section-subheading mx-auto">
-            Ready to build something that lasts? Reach out for a free consultation
-            and quote. Michael personally responds to every inquiry.
+            Call Michael directly for a quote, or stop by the shop at 576 Angus Rd to meet in person,
+            see the display work, and get a full project overview - no charge for your visit.
           </p>
         </motion.div>
 
@@ -108,7 +108,7 @@ export default function Contact() {
             <div className="grid grid-cols-2 gap-4">
               {[
                 { icon: Clock, title: 'Fast Response', desc: 'Quote within 3–5 days' },
-                { icon: Wrench, title: 'Free Consult', desc: 'No obligation estimate' },
+                { icon: Wrench, title: 'Visit the Shop', desc: 'Free overview & display' },
               ].map((item) => (
                 <div key={item.title} className="card-surface p-4 text-center">
                   <item.icon size={20} className="text-orange-500 mx-auto mb-2" />
@@ -162,9 +162,12 @@ export default function Contact() {
                 </motion.div>
               ) : (
                 <>
-                  <h3 className="font-display text-2xl font-bold text-gray-900 dark:text-white mb-6 tracking-wide">
-                    Request a Free Quote
+                  <h3 className="font-display text-2xl font-bold text-gray-900 dark:text-white mb-2 tracking-wide">
+                    Get in Touch
                   </h3>
+                  <p className="text-gray-500 dark:text-neutral-500 text-sm mb-6">
+                    Call Michael for a quote, or stop by the shop to meet in person, see the display, and discuss your project at no charge.
+                  </p>
                   <form onSubmit={handleSubmit} className="flex flex-col gap-5">
                     <div className="grid sm:grid-cols-2 gap-5">
                       <div>
