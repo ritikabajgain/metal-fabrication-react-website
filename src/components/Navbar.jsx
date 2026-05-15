@@ -59,21 +59,21 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-3 group min-w-0">
-            <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center shadow-md shadow-orange-500/25 group-hover:bg-orange-400 transition-colors">
+          <a href="#home" className="flex items-center gap-3 group shrink-0">
+            <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center shadow-md shadow-orange-500/25 group-hover:bg-orange-400 transition-colors shrink-0">
               <Hammer size={18} className="text-white" />
             </div>
-            <div className="leading-none min-w-0">
+            <div className="leading-none">
               <span className="sr-only">Sillers Welding and Renovation</span>
-              <div className="flex items-baseline gap-2 sm:gap-3 whitespace-nowrap">
+              <div className="flex flex-col lg:flex-row lg:items-baseline lg:gap-3">
                 <span
-                  className={`font-display font-bold uppercase text-xl sm:text-2xl tracking-[0.18em] ${
+                  className={`font-display font-bold uppercase text-xl sm:text-2xl tracking-[0.18em] leading-none ${
                     scrolled ? 'text-gray-900 dark:text-white' : 'text-white'
                   } transition-colors`}
                 >
                   SILLERS
                 </span>
-                <span className="font-display font-semibold text-base sm:text-xl tracking-[0.12em] text-orange-500">
+                <span className="font-display font-semibold text-xs lg:text-xl tracking-[0.06em] lg:tracking-[0.12em] text-orange-500 leading-tight">
                   Welding & Renovation
                 </span>
               </div>
