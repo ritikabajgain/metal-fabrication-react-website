@@ -149,7 +149,7 @@ export default function Portfolio() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 bg-black/97 flex items-center justify-center"
+            className="fixed inset-0 z-50 bg-black/70 backdrop-blur-md flex items-center justify-center"
             onClick={() => setSelectedIdx(null)}
           >
             <button
