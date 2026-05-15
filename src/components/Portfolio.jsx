@@ -12,6 +12,9 @@ const images = [
   { src: '/images/7.jpg', caption: 'Foundation for the Road: Pressure-Treated Decking on a Custom Frame', category: 'Trailers' },
   { src: '/images/8.jpg', caption: 'Modernist Haven: Structured Balcony and Architectural Symmetry', category: 'Container Homes' },
   { src: '/images/9.jpg', caption: 'Curves in Iron: Elegant Spiral Banister and Shadowplay', category: 'Wrought Iron' },
+  { src: '/images/10.jpg', caption: 'Desert Oasis Container Pool: Contemporary Outdoor Luxury Installation', category: 'Container Pools' },
+  { src: '/images/11.jpg', caption: 'Elevated Rustic Container Pool: Custom Raised Build with Wood Trim', category: 'Container Pools' },
+  { src: '/images/12.jpg', caption: 'Illuminated Viewing Window Pool: Resort-Style LED Container Build', category: 'Container Pools' },
 ]
 
 const categories = ['All', ...Array.from(new Set(images.map((i) => i.category)))]

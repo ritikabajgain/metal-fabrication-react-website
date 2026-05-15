@@ -38,6 +38,18 @@ const projects = [
       { label: 'Process', value: 'Hand-Formed' },
     ],
   },
+  {
+    image: '/images/12.jpg',
+    title: 'Illuminated Viewing Window Pool - Luxury Container Build',
+    description:
+      'A resort-caliber container pool installation engineered for visual impact as much as performance. The centerpiece is a floor-to-ceiling acrylic viewing panel set into reinforced steel plate, delivering a dramatic underwater perspective at any hour. Fully integrated LED lighting transforms the structure after dark, casting a luminous glow that elevates the entire backyard environment. Built to withstand years of outdoor use without compromise - this build represents what happens when industrial-grade fabrication meets luxury design intent.',
+    tags: ['Container Pool', 'Custom Build', 'Luxury Resort'],
+    stats: [
+      { label: 'Panel', value: 'Acrylic View' },
+      { label: 'Lighting', value: 'LED System' },
+      { label: 'Build', value: 'Reinforced' },
+    ],
+  },
 ]
 
 export default function FeaturedProjects() {
