@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Home, Wrench, Truck, Flame, Shield, ArrowRight } from 'lucide-react'
+import { Home, Wrench, Truck, Flame, Shield, Droplets, ArrowRight } from 'lucide-react'
 
 const services = [
   {
@@ -41,6 +41,14 @@ const services = [
       'Elegant and durable wrought iron fencing, gates, and railings that enhance security without sacrificing style. Classic designs or fully custom patterns.',
     highlight: null,
     image: '/images/3.jpg',
+  },
+  {
+    icon: Droplets,
+    title: 'Container Pools',
+    description:
+      'Custom-fabricated container pools built for backyard luxury. Fully welded, sealed, and finished with optional acrylic viewing panels, integrated LED lighting, and your choice of interior liner - engineered for years of trouble-free outdoor use.',
+    highlight: 'New',
+    image: '/images/12.jpg',
   },
 ]
 
@@ -124,8 +132,8 @@ export default function Services() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.5, duration: 0.5 }}
-            className="relative overflow-hidden rounded-xl bg-gradient-to-br from-orange-500 to-orange-700 p-8 flex flex-col justify-between min-h-[200px]"
+            transition={{ delay: 0.6, duration: 0.5 }}
+            className="relative overflow-hidden rounded-xl bg-gradient-to-br from-orange-500 to-orange-700 p-8 flex flex-col justify-between min-h-[200px] lg:col-span-3"
           >
             <div>
               <h3 className="font-display text-2xl font-bold text-white mb-3">

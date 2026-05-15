@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: 'How does the quoting process work?',
-    a: "Start by filling out the contact form below or calling directly. Michael will schedule a free consultation - either in person or via video call - to discuss your project in detail. After that, he'll provide a written quote typically within 3-5 business days. The quote covers materials, labor, and estimated timeline. No surprise fees.",
+    a: "Call Michael directly or fill out the contact form to get the conversation started. You're also welcome to stop by the shop at 576 Angus Rd in Monroe - come meet Michael in person, check out the display work, and get a full project overview at no charge for your visit. From there, Michael will work up a written quote tailored to your specific project, covering materials, scope, and timeline.",
   },
   {
     q: 'Can you do custom or one-of-a-kind designs?',
